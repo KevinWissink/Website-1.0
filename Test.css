@@ -1,0 +1,48 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.navagation {
+    color: white;
+    display: block;
+    float: right;
+    font: 28px Arial; 
+    padding: 14px 50px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.nav-name {
+    color: white;
+    display: block;
+    float: left;
+    font: 28px Arial; 
+    padding: 14px 50px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.nav-name:hover {
+    background-color: #027ebc;
+}
+
+.navagation:hover {
+    background-color: #027ebc;
+}
+
+.name-main {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    background-color: #027ebc;
+}

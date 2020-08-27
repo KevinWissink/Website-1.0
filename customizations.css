@@ -1,31 +1,56 @@
 body {
-    background: url(Landing_Background.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-.navbar-nav {
-    list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
-li {
-    display: inline;
+.parallax {
+    /* The image used */
+  background-image: url(top_photo.jpg);
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.navagation {
+.parallax1 {
+    /* The image used */
+  background-image: url(bottom_photo.jpg);
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+    margin-top: 0;
+}
+
+.bar1 {
+    height: 200px;
+    background-color: gray;
+    font-size: 28px;
+    border-style: solid;
+}
+
+.hi {
+    padding-top: 15px;
     color: white;
-    display: block;
-    float: right;
-    font: 24px Arial; 
-    padding: 14px 50px;
-    text-decoration: none;
     text-align: center;
-    
+    font-size: 42px;
 }
 
-.navagation:hover {
-    background-color: #027ebc;
+.name {
+    
+    color: white;
+    text-align: center;
+    font-size: 36px;
 }
