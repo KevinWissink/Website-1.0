@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+}
+
+.navagation {
+    text-decoration: none;
+    float: right;
+    font-size: 28px;
+    font-family: "Arial";
+    padding: 4px 8px 4px 8px;
+    margin-left: 5px;
+    color: #333;
+}
+
+.navagation:hover {
+    padding-top: 10px;
+}
+
+.navagation-service {
+    font-size: 28px;
+    font-family: "Arial";
+    padding: 4px 8px 4px 8px;
+    margin-left: 5px;
+    text-decoration: none;
+    float: right;
+    color: #333;
+}
+
+.navagation-service:hover {
+    padding-top: 10px;
+}
+
+.parallax {
+    /* The image used */
+  background-image: url(Photos/Slov_photo.jpg);
+
+  /* Set a specific height */
+  min-height: 100vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
