@@ -57,3 +57,12 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.portfolio {
+    margin: 0;
+    font-size: 84px;
+    color: #333;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
